@@ -1,0 +1,47 @@
+/* Resetear los estilos predeterminados del navegador */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el cuerpo de la página */
+.contenido {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el fondo de la página */
+.box-degrade {
+    background: linear-gradient(to bottom, #3399FF, #0066CC);
+    color: #fff;
+}
+
+/* Estilo para el encabezado (h1) */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la lista desordenada (ul) */
+ul {
+    list-style: none;
+}
+
+/* Estilo para los elementos de la lista (li) */
+li {
+    margin: 10px 0;
+}
+
+/* Estilo para los enlaces (a) */
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Cambiar el color del enlace al pasar el cursor (hover) */
+li a:hover {
+    color: #FFCC00;
+}

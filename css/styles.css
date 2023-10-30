@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Contenedor principal */
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Tabla de entrada de datos */
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Formulario y select */
+select, input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 4px 0;
+}
+
+/* Botón de calcular */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Resultados */
+#fila td {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Estilo para el enlace "INICIO" */
+a[href="index.php"] {
+    display: block;
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Añade espacio superior para separar los mensajes de error */
+}
+
+.codigo-generado {
+    color: #007BFF;
+    font-size: 18px;
+    text-align: center; 
+}
+
+.codigo {
+    color: #000000;
+    font-size: 17px;
+    text-align: center; /* Añade espacio superior para separar los mensajes de error */
+}
+
